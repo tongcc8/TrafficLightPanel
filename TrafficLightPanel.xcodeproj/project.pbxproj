@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C12ED70C15EBBED70049ECDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12ED70B15EBBED70049ECDB /* UIKit.framework */; };
+		C12ED70E15EBBED70049ECDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12ED70D15EBBED70049ECDB /* Foundation.framework */; };
+		C12ED71015EBBED70049ECDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12ED70F15EBBED70049ECDB /* CoreGraphics.framework */; };
+		C12ED71615EBBED70049ECDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C12ED71415EBBED70049ECDB /* InfoPlist.strings */; };
+		C12ED71815EBBED70049ECDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C12ED71715EBBED70049ECDB /* main.m */; };
+		C12ED71C15EBBED70049ECDB /* TrafficLightPanelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C12ED71B15EBBED70049ECDB /* TrafficLightPanelAppDelegate.m */; };
+		C12ED71F15EBBED70049ECDB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12ED71D15EBBED70049ECDB /* MainStoryboard.storyboard */; };
+		C12ED72215EBBED70049ECDB /* TrafficLightPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C12ED72115EBBED70049ECDB /* TrafficLightPanelViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C12ED70715EBBED70049ECDB /* TrafficLightPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLightPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12ED70B15EBBED70049ECDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C12ED70D15EBBED70049ECDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C12ED70F15EBBED70049ECDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C12ED71315EBBED70049ECDB /* TrafficLightPanel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrafficLightPanel-Info.plist"; sourceTree = "<group>"; };
+		C12ED71515EBBED70049ECDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C12ED71715EBBED70049ECDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C12ED71915EBBED70049ECDB /* TrafficLightPanel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrafficLightPanel-Prefix.pch"; sourceTree = "<group>"; };
+		C12ED71A15EBBED70049ECDB /* TrafficLightPanelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrafficLightPanelAppDelegate.h; sourceTree = "<group>"; };
+		C12ED71B15EBBED70049ECDB /* TrafficLightPanelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrafficLightPanelAppDelegate.m; sourceTree = "<group>"; };
+		C12ED71E15EBBED70049ECDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C12ED72015EBBED70049ECDB /* TrafficLightPanelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrafficLightPanelViewController.h; sourceTree = "<group>"; };
+		C12ED72115EBBED70049ECDB /* TrafficLightPanelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrafficLightPanelViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C12ED70415EBBED70049ECDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12ED70C15EBBED70049ECDB /* UIKit.framework in Frameworks */,
+				C12ED70E15EBBED70049ECDB /* Foundation.framework in Frameworks */,
+				C12ED71015EBBED70049ECDB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C12ED6FC15EBBED70049ECDB = {
+			isa = PBXGroup;
+			children = (
+				C12ED71115EBBED70049ECDB /* TrafficLightPanel */,
+				C12ED70A15EBBED70049ECDB /* Frameworks */,
+				C12ED70815EBBED70049ECDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C12ED70815EBBED70049ECDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C12ED70715EBBED70049ECDB /* TrafficLightPanel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C12ED70A15EBBED70049ECDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C12ED70B15EBBED70049ECDB /* UIKit.framework */,
+				C12ED70D15EBBED70049ECDB /* Foundation.framework */,
+				C12ED70F15EBBED70049ECDB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C12ED71115EBBED70049ECDB /* TrafficLightPanel */ = {
+			isa = PBXGroup;
+			children = (
+				C12ED71A15EBBED70049ECDB /* TrafficLightPanelAppDelegate.h */,
+				C12ED71B15EBBED70049ECDB /* TrafficLightPanelAppDelegate.m */,
+				C12ED71D15EBBED70049ECDB /* MainStoryboard.storyboard */,
+				C12ED72015EBBED70049ECDB /* TrafficLightPanelViewController.h */,
+				C12ED72115EBBED70049ECDB /* TrafficLightPanelViewController.m */,
+				C12ED71215EBBED70049ECDB /* Supporting Files */,
+			);
+			path = TrafficLightPanel;
+			sourceTree = "<group>";
+		};
+		C12ED71215EBBED70049ECDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C12ED71315EBBED70049ECDB /* TrafficLightPanel-Info.plist */,
+				C12ED71415EBBED70049ECDB /* InfoPlist.strings */,
+				C12ED71715EBBED70049ECDB /* main.m */,
+				C12ED71915EBBED70049ECDB /* TrafficLightPanel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C12ED70615EBBED70049ECDB /* TrafficLightPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12ED72515EBBED70049ECDB /* Build configuration list for PBXNativeTarget "TrafficLightPanel" */;
+			buildPhases = (
+				C12ED70315EBBED70049ECDB /* Sources */,
+				C12ED70415EBBED70049ECDB /* Frameworks */,
+				C12ED70515EBBED70049ECDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrafficLightPanel;
+			productName = TrafficLightPanel;
+			productReference = C12ED70715EBBED70049ECDB /* TrafficLightPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C12ED6FE15EBBED70049ECDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TrafficLightPanel;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Chentou;
+			};
+			buildConfigurationList = C12ED70115EBBED70049ECDB /* Build configuration list for PBXProject "TrafficLightPanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C12ED6FC15EBBED70049ECDB;
+			productRefGroup = C12ED70815EBBED70049ECDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C12ED70615EBBED70049ECDB /* TrafficLightPanel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C12ED70515EBBED70049ECDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12ED71615EBBED70049ECDB /* InfoPlist.strings in Resources */,
+				C12ED71F15EBBED70049ECDB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C12ED70315EBBED70049ECDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12ED71815EBBED70049ECDB /* main.m in Sources */,
+				C12ED71C15EBBED70049ECDB /* TrafficLightPanelAppDelegate.m in Sources */,
+				C12ED72215EBBED70049ECDB /* TrafficLightPanelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C12ED71415EBBED70049ECDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C12ED71515EBBED70049ECDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C12ED71D15EBBED70049ECDB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C12ED71E15EBBED70049ECDB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C12ED72315EBBED70049ECDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C12ED72415EBBED70049ECDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C12ED72615EBBED70049ECDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrafficLightPanel/TrafficLightPanel-Prefix.pch";
+				INFOPLIST_FILE = "TrafficLightPanel/TrafficLightPanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C12ED72715EBBED70049ECDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrafficLightPanel/TrafficLightPanel-Prefix.pch";
+				INFOPLIST_FILE = "TrafficLightPanel/TrafficLightPanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C12ED70115EBBED70049ECDB /* Build configuration list for PBXProject "TrafficLightPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12ED72315EBBED70049ECDB /* Debug */,
+				C12ED72415EBBED70049ECDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12ED72515EBBED70049ECDB /* Build configuration list for PBXNativeTarget "TrafficLightPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12ED72615EBBED70049ECDB /* Debug */,
+				C12ED72715EBBED70049ECDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C12ED6FE15EBBED70049ECDB /* Project object */;
+}
