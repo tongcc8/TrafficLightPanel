@@ -15,6 +15,25 @@
 		C12ED71C15EBBED70049ECDB /* TrafficLightPanelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C12ED71B15EBBED70049ECDB /* TrafficLightPanelAppDelegate.m */; };
 		C12ED71F15EBBED70049ECDB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12ED71D15EBBED70049ECDB /* MainStoryboard.storyboard */; };
 		C12ED72215EBBED70049ECDB /* TrafficLightPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C12ED72115EBBED70049ECDB /* TrafficLightPanelViewController.m */; };
+		C12ED72E15EBCF060049ECDB /* PCCW_144.png in Resources */ = {isa = PBXBuildFile; fileRef = C12ED72D15EBCF060049ECDB /* PCCW_144.png */; };
+		C12ED73015EBCF0B0049ECDB /* PCCW_72.png in Resources */ = {isa = PBXBuildFile; fileRef = C12ED72F15EBCF0B0049ECDB /* PCCW_72.png */; };
+		C15ABD9115F8B248005954BA /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = C15ABD9015F8B248005954BA /* FaceView.m */; };
+		C1818768160C08C700EF1F46 /* light_yellow_x45.png in Resources */ = {isa = PBXBuildFile; fileRef = C1818758160C08C700EF1F46 /* light_yellow_x45.png */; };
+		C1818769160C08C700EF1F46 /* light_gray_x45.png in Resources */ = {isa = PBXBuildFile; fileRef = C1818759160C08C700EF1F46 /* light_gray_x45.png */; };
+		C181876A160C08C700EF1F46 /* NavLight_Landmarks_220.png in Resources */ = {isa = PBXBuildFile; fileRef = C181875A160C08C700EF1F46 /* NavLight_Landmarks_220.png */; };
+		C181876B160C08C700EF1F46 /* light_red_x45.png in Resources */ = {isa = PBXBuildFile; fileRef = C181875B160C08C700EF1F46 /* light_red_x45.png */; };
+		C181876C160C08C700EF1F46 /* light_red_x55.png in Resources */ = {isa = PBXBuildFile; fileRef = C181875C160C08C700EF1F46 /* light_red_x55.png */; };
+		C181876D160C08C700EF1F46 /* light_red_big.png in Resources */ = {isa = PBXBuildFile; fileRef = C181875D160C08C700EF1F46 /* light_red_big.png */; };
+		C181876E160C08C700EF1F46 /* NavLight_Landmarks.png in Resources */ = {isa = PBXBuildFile; fileRef = C181875E160C08C700EF1F46 /* NavLight_Landmarks.png */; };
+		C181876F160C08C700EF1F46 /* LH_red_bg_on.png in Resources */ = {isa = PBXBuildFile; fileRef = C181875F160C08C700EF1F46 /* LH_red_bg_on.png */; };
+		C1818770160C08C700EF1F46 /* LH_yellow_bg_on.png in Resources */ = {isa = PBXBuildFile; fileRef = C1818760160C08C700EF1F46 /* LH_yellow_bg_on.png */; };
+		C1818771160C08C700EF1F46 /* yellow_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C1818761160C08C700EF1F46 /* yellow_bg.png */; };
+		C1818772160C08C700EF1F46 /* LH_normal_traffic_light.png in Resources */ = {isa = PBXBuildFile; fileRef = C1818762160C08C700EF1F46 /* LH_normal_traffic_light.png */; };
+		C1818773160C08C700EF1F46 /* light_red.png in Resources */ = {isa = PBXBuildFile; fileRef = C1818763160C08C700EF1F46 /* light_red.png */; };
+		C1818774160C08C700EF1F46 /* light_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = C1818764160C08C700EF1F46 /* light_gray.png */; };
+		C1818775160C08C700EF1F46 /* light_black.png in Resources */ = {isa = PBXBuildFile; fileRef = C1818765160C08C700EF1F46 /* light_black.png */; };
+		C1818776160C08C700EF1F46 /* light_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = C1818766160C08C700EF1F46 /* light_yellow.png */; };
+		C1818777160C08C700EF1F46 /* light_green.png in Resources */ = {isa = PBXBuildFile; fileRef = C1818767160C08C700EF1F46 /* light_green.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +50,26 @@
 		C12ED71E15EBBED70049ECDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C12ED72015EBBED70049ECDB /* TrafficLightPanelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrafficLightPanelViewController.h; sourceTree = "<group>"; };
 		C12ED72115EBBED70049ECDB /* TrafficLightPanelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrafficLightPanelViewController.m; sourceTree = "<group>"; };
+		C12ED72D15EBCF060049ECDB /* PCCW_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PCCW_144.png; sourceTree = "<group>"; };
+		C12ED72F15EBCF0B0049ECDB /* PCCW_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PCCW_72.png; sourceTree = "<group>"; };
+		C15ABD8F15F8B248005954BA /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		C15ABD9015F8B248005954BA /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
+		C1818758160C08C700EF1F46 /* light_yellow_x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_yellow_x45.png; sourceTree = "<group>"; };
+		C1818759160C08C700EF1F46 /* light_gray_x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_gray_x45.png; sourceTree = "<group>"; };
+		C181875A160C08C700EF1F46 /* NavLight_Landmarks_220.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavLight_Landmarks_220.png; sourceTree = "<group>"; };
+		C181875B160C08C700EF1F46 /* light_red_x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_red_x45.png; sourceTree = "<group>"; };
+		C181875C160C08C700EF1F46 /* light_red_x55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_red_x55.png; sourceTree = "<group>"; };
+		C181875D160C08C700EF1F46 /* light_red_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_red_big.png; sourceTree = "<group>"; };
+		C181875E160C08C700EF1F46 /* NavLight_Landmarks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavLight_Landmarks.png; sourceTree = "<group>"; };
+		C181875F160C08C700EF1F46 /* LH_red_bg_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LH_red_bg_on.png; sourceTree = "<group>"; };
+		C1818760160C08C700EF1F46 /* LH_yellow_bg_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LH_yellow_bg_on.png; sourceTree = "<group>"; };
+		C1818761160C08C700EF1F46 /* yellow_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow_bg.png; sourceTree = "<group>"; };
+		C1818762160C08C700EF1F46 /* LH_normal_traffic_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LH_normal_traffic_light.png; sourceTree = "<group>"; };
+		C1818763160C08C700EF1F46 /* light_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_red.png; sourceTree = "<group>"; };
+		C1818764160C08C700EF1F46 /* light_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_gray.png; sourceTree = "<group>"; };
+		C1818765160C08C700EF1F46 /* light_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_black.png; sourceTree = "<group>"; };
+		C1818766160C08C700EF1F46 /* light_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_yellow.png; sourceTree = "<group>"; };
+		C1818767160C08C700EF1F46 /* light_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_green.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +89,8 @@
 		C12ED6FC15EBBED70049ECDB = {
 			isa = PBXGroup;
 			children = (
+				C12ED72F15EBCF0B0049ECDB /* PCCW_72.png */,
+				C12ED72D15EBCF060049ECDB /* PCCW_144.png */,
 				C12ED71115EBBED70049ECDB /* TrafficLightPanel */,
 				C12ED70A15EBBED70049ECDB /* Frameworks */,
 				C12ED70815EBBED70049ECDB /* Products */,
@@ -77,11 +118,14 @@
 		C12ED71115EBBED70049ECDB /* TrafficLightPanel */ = {
 			isa = PBXGroup;
 			children = (
+				C1818779160C08CE00EF1F46 /* image */,
 				C12ED71A15EBBED70049ECDB /* TrafficLightPanelAppDelegate.h */,
 				C12ED71B15EBBED70049ECDB /* TrafficLightPanelAppDelegate.m */,
 				C12ED71D15EBBED70049ECDB /* MainStoryboard.storyboard */,
 				C12ED72015EBBED70049ECDB /* TrafficLightPanelViewController.h */,
 				C12ED72115EBBED70049ECDB /* TrafficLightPanelViewController.m */,
+				C15ABD8F15F8B248005954BA /* FaceView.h */,
+				C15ABD9015F8B248005954BA /* FaceView.m */,
 				C12ED71215EBBED70049ECDB /* Supporting Files */,
 			);
 			path = TrafficLightPanel;
@@ -96,6 +140,29 @@
 				C12ED71915EBBED70049ECDB /* TrafficLightPanel-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1818779160C08CE00EF1F46 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C1818758160C08C700EF1F46 /* light_yellow_x45.png */,
+				C1818759160C08C700EF1F46 /* light_gray_x45.png */,
+				C181875A160C08C700EF1F46 /* NavLight_Landmarks_220.png */,
+				C181875B160C08C700EF1F46 /* light_red_x45.png */,
+				C181875C160C08C700EF1F46 /* light_red_x55.png */,
+				C181875D160C08C700EF1F46 /* light_red_big.png */,
+				C181875E160C08C700EF1F46 /* NavLight_Landmarks.png */,
+				C181875F160C08C700EF1F46 /* LH_red_bg_on.png */,
+				C1818760160C08C700EF1F46 /* LH_yellow_bg_on.png */,
+				C1818761160C08C700EF1F46 /* yellow_bg.png */,
+				C1818762160C08C700EF1F46 /* LH_normal_traffic_light.png */,
+				C1818763160C08C700EF1F46 /* light_red.png */,
+				C1818764160C08C700EF1F46 /* light_gray.png */,
+				C1818765160C08C700EF1F46 /* light_black.png */,
+				C1818766160C08C700EF1F46 /* light_yellow.png */,
+				C1818767160C08C700EF1F46 /* light_green.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +219,24 @@
 			files = (
 				C12ED71615EBBED70049ECDB /* InfoPlist.strings in Resources */,
 				C12ED71F15EBBED70049ECDB /* MainStoryboard.storyboard in Resources */,
+				C12ED72E15EBCF060049ECDB /* PCCW_144.png in Resources */,
+				C12ED73015EBCF0B0049ECDB /* PCCW_72.png in Resources */,
+				C1818768160C08C700EF1F46 /* light_yellow_x45.png in Resources */,
+				C1818769160C08C700EF1F46 /* light_gray_x45.png in Resources */,
+				C181876A160C08C700EF1F46 /* NavLight_Landmarks_220.png in Resources */,
+				C181876B160C08C700EF1F46 /* light_red_x45.png in Resources */,
+				C181876C160C08C700EF1F46 /* light_red_x55.png in Resources */,
+				C181876D160C08C700EF1F46 /* light_red_big.png in Resources */,
+				C181876E160C08C700EF1F46 /* NavLight_Landmarks.png in Resources */,
+				C181876F160C08C700EF1F46 /* LH_red_bg_on.png in Resources */,
+				C1818770160C08C700EF1F46 /* LH_yellow_bg_on.png in Resources */,
+				C1818771160C08C700EF1F46 /* yellow_bg.png in Resources */,
+				C1818772160C08C700EF1F46 /* LH_normal_traffic_light.png in Resources */,
+				C1818773160C08C700EF1F46 /* light_red.png in Resources */,
+				C1818774160C08C700EF1F46 /* light_gray.png in Resources */,
+				C1818775160C08C700EF1F46 /* light_black.png in Resources */,
+				C1818776160C08C700EF1F46 /* light_yellow.png in Resources */,
+				C1818777160C08C700EF1F46 /* light_green.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +250,7 @@
 				C12ED71815EBBED70049ECDB /* main.m in Sources */,
 				C12ED71C15EBBED70049ECDB /* TrafficLightPanelAppDelegate.m in Sources */,
 				C12ED72215EBBED70049ECDB /* TrafficLightPanelViewController.m in Sources */,
+				C15ABD9115F8B248005954BA /* FaceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +284,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -213,6 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -226,6 +314,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -235,6 +324,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -248,6 +338,7 @@
 				GCC_PREFIX_HEADER = "TrafficLightPanel/TrafficLightPanel-Prefix.pch";
 				INFOPLIST_FILE = "TrafficLightPanel/TrafficLightPanel-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -259,6 +350,7 @@
 				GCC_PREFIX_HEADER = "TrafficLightPanel/TrafficLightPanel-Prefix.pch";
 				INFOPLIST_FILE = "TrafficLightPanel/TrafficLightPanel-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -282,6 +374,7 @@
 				C12ED72715EBBED70049ECDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
