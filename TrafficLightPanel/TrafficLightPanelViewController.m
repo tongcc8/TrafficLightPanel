@@ -73,7 +73,11 @@
         NSString *response = [NSString stringWithFormat:@"msg:TLE@POLL"];
         NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
         [self.outputStream write:[data bytes] maxLength:[data length]];}
-    
+    else if ([siteName isEqualToString:@"FOG POLL"]) {
+        // send FH1@POLL
+        NSString *response = [NSString stringWithFormat:@"msg:FH1@POLL"];
+        NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
+        [self.outputStream write:[data bytes] maxLength:[data length]];}
     
 }
 
@@ -105,6 +109,11 @@
     else if ([siteName isEqualToString:@"TLE OFF"]) {
         // send TLE @ON
         NSString *response = [NSString stringWithFormat:@"msg:TLE@OFF"];
+        NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
+        [self.outputStream write:[data bytes] maxLength:[data length]];}
+    else if ([siteName isEqualToString:@"FOG OFF"]) {
+        // send TLE @ON
+        NSString *response = [NSString stringWithFormat:@"msg:FH1@OFF"];
         NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
         [self.outputStream write:[data bytes] maxLength:[data length]];}
 
@@ -142,6 +151,11 @@
     else if ([siteName isEqualToString:@"TLE ON"]) {
         // send TLE @ON
         NSString *response = [NSString stringWithFormat:@"msg:TLE@ON"];
+        NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
+        [self.outputStream write:[data bytes] maxLength:[data length]];}
+    else if ([siteName isEqualToString:@"FOG ON"]) {
+        // send TLE @ON
+        NSString *response = [NSString stringWithFormat:@"msg:FH1@ON"];
         NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
         [self.outputStream write:[data bytes] maxLength:[data length]];}
     
@@ -722,7 +736,7 @@
 - (void)viewDidLoad
 {
     // set the default chat name
-    self.inputNameField.text = @"ipad";
+    self.inputNameField.text = @"IP1";
     
     self.messages = [[NSMutableArray alloc] init];
     [self.messages addObject:@"Starting"];
